@@ -1,0 +1,23 @@
+{
+  "name": "js_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "declarations_expressions.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesmondM/javascript_code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DesmondM/javascript_code/issues"
+  },
+  "homepage": "https://github.com/DesmondM/javascript_code#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

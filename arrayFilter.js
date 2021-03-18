@@ -1,5 +1,6 @@
-var arr = [3,4,5,6,6,6,7,8,8];
-function removeDuplicates(entries){
-    return entries.filter((value, index)=>entries.indexOf(value)===value);
-}
-console.log(removeDuplicates(arr));
+const dataArr = ['1','5','6','1','3','5','90','334'];
+
+const resultArr = dataArr.filter((data,index)=>{
+  return dataArr.indexOf(data) === index;
+})
+console.log(resultArr); 

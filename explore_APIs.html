@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apis Explore</title>
+        
+
+    </head>
+    <body>
+<h2> Apis Testing</h2>
+   
+ <script>
+const url_api = 'http://api.weatherstack.com/current
+        ? access_key = d387c3c43061a227d90dc538c81839b
+        & query = New York';
+
+async function apiFunc(){
+  const res = await fetch(url_api)
+        const data = res.json();
+        console.log("Testing");
+        console.log(res);
+        console.log(data);
+    
+}
+apiFunc();
+</script>
+
+  </body>
+</html>

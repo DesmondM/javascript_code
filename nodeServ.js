@@ -1,7 +1,7 @@
 const { createServer } = require("http");
 
 // it is a good practice to always allow to
-// run on a different port
+// running on a different port
 const PORT = process.env.PORT || 5000;
 
 const server = createServer();

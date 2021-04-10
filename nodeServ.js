@@ -13,7 +13,6 @@ const server = createServer();
 server.on("request", (request, response) => {
   response.end("Hello, world! - This is node Server");
 });
-
 server.listen(PORT, () => {
   console.log(`starting server at port ${PORT}`);
 <<<<<<< HEAD

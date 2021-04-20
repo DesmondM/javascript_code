@@ -18,7 +18,8 @@ function func(){
     console.log(`Hello, ${this.firstName}!`)
 }
 
-let funcUser = func.bind(user2);
+let funcUser = func.bind(user);
 funcUser();
 
-
+let funcUser2 = func.bind(user2);
+funcUser2();

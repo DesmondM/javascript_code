@@ -1,7 +1,7 @@
 //losing this
 
 let user ={
-    firstName: "John",
+    firstName: "John the first",
     sayHi(){
         console.log(`Hello, ${this.firstname}!`);
     }

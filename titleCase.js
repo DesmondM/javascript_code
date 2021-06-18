@@ -5,5 +5,4 @@ const titleCase = (str) =>{
     }
     return str.join(" ")
 }
-
 console.log(titleCase("It is the day that the lord has made, we will rejoice and be glad in it"));

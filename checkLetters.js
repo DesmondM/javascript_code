@@ -12,4 +12,4 @@ const check =(arr)=>{
     return "A match in words"
 }
 
-console.log(check(["Rara", "rabaab"]))
+console.log(check(["Rarab", "rabaabi"]))

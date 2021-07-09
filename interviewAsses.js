@@ -6,8 +6,7 @@ var john = {
         return new Promise((res, rej)=>{
             setTimeout(()=>{
                 this.balance = this.amount -deduct;
-                resclear
-                ( `The salary for ${this.name.toUpperCase()} is ${this.balance}`);
+                res( `The salary for ${this.name.toUpperCase()} is ${this.balance}`);
             }, 2000);
         })
         

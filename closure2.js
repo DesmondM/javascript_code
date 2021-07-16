@@ -7,8 +7,10 @@ const helloCreator = (name) =>{
     return helloFunction;
 }
 
-var helloJohn = helloCreator(' Desmond');
+var helloDesmond = helloCreator(' Desmond');
 var helloTessie =helloCreator(' Tessie');
+var greetPrimo = helloCreator('Primo');
 
-helloJohn();
+helloDesmond();
 helloTessie();
+greetPrimo();

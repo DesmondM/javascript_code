@@ -10,10 +10,10 @@ const todos = [
         isCompleted: true
     },
     {
-        id: 1,
+        id: 3,
         text: 'Eat Lunch',
         isCompleted: false
     }
 ];
 
-console.log(todos);
+console.log(todos[1]);

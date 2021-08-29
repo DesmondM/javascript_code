@@ -6,4 +6,4 @@ const noRepeat = (str) =>{
     }
 }
 
-noRepeat("mamat wami");
+noRepeat("the quick brown fox jumps over the lazy dog by the hazy hills of the crusty cazey growlings");

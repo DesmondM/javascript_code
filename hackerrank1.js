@@ -10,4 +10,4 @@ const pairs =(nums)=>{
 
 }
 
-console.log(pairs([1,1,1,2,1,3,2, 5]))
+console.log(pairs([1,1,1,2,1,3,2, 5, 7]))

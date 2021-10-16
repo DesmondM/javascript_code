@@ -1,4 +1,6 @@
+
 const fetch = require("node-fetch");
+const data2= require('/data.json')
 const promiseObject = fetch('/data.json')
 
 promiseObject.then(response=>{

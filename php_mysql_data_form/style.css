@@ -4,16 +4,37 @@
    box-sizing: border-box;
 }
 
-.background {
- 
+header {
+  background-color: rgb(255, 255, 255);
+  background-image: url('logo.jpg');
+  background-repeat: no-repeat;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
 
-background-image: url('gomez-angel.jpg');
+.background {
+
 background-repeat: no-repeat;
 background-size: 100%;
 }
 
-form {
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+section{
+background-image: url('gomez-angel.jpg');
   border: 1px solid #c6c7cc;
+}
+
+form {
+  
   border-radius: 5px;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: hidden;

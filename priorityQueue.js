@@ -16,7 +16,7 @@ function PriorityQueue(){
     for(let i = 0; i < items.length; i++){
       //We are using giving priority to higher numbers
       //If new element has more priority then add it at that place
-      if(queueElement.priority > items[i].priority){
+      if(queueElement.priority < items[i].priority){
         items.splice(i, 0, queueElement);
         
         //Mark the flag true
@@ -72,5 +72,5 @@ pQ.enqueue(6, 1);
 pQ.enqueue(11, 1);
 pQ.enqueue(13, 1);
 pQ.enqueue(10, 3);
-pQ.dequeue();
+//pQ.dequeue();
 pQ.print();

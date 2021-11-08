@@ -10,17 +10,17 @@
         </div>
                     <div class="container">
                         <div class="innerDiv"> Contact <b>US</b>
-                                <form>
-                                    <input type ="text" placeholder= "Name"><input type="text" placeholder="Subject">
-                                    <input type="text" placeholder="Email"><textarea  placeholder="Your Message"></textarea>
-                                    <select name="ervices">
-                                        <option value="fiat">All Services</option>
-                                        <option value="fiat">Service 1</option>
-                                        <option value="fiat">Service 2</option>
+                                <form action="insertData.php">
+                                    <input type ="text" placeholder= "Name" name="fname" ><input type="text" placeholder="Subject" name="subject">
+                                    <input type="text" placeholder="Email" name="email"><textarea  placeholder="Your Message" name="fmessage"></textarea>
+                                    <select name="services">
+                                        <option value="All Services">All Services</option>
+                                        <option value="service1">Service 1</option>
+                                        <option value="service2">Service 2</option>
                                     </select>
                                     <script src='https://www.google.com/recaptcha/api.js'>Not a robot</script>
                                     <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
-                                    <button>Send My Email</button>
+                                    <input input type="submit" value="Submit" name="submit">
                                 </form>
 
                         </div>

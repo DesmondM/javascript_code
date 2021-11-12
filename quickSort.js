@@ -5,8 +5,8 @@ const qSort  = (arr) =>{
     
     const [pivot, ...restofItems] = arr;
 
-    console.log(pivot);
-    console.log(...restofItems);
+    //console.log(pivot);
+    //console.log(...restofItems);
 
     const left=[], right=[];
 

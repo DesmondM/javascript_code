@@ -66,11 +66,11 @@ function PriorityQueue(){
 }
 
 let pQ = new PriorityQueue();
-pQ.enqueue(1, 3);
-pQ.enqueue(5, 2);
-pQ.enqueue(6, 1);
-pQ.enqueue(11, 1);
-pQ.enqueue(13, 1);
-pQ.enqueue(10, 3);
+pQ.enqueue("Des", 3);
+pQ.enqueue("Ray", 2);
+pQ.enqueue("Scot", 1);
+pQ.enqueue("Mia", 1);
+pQ.enqueue("Rag", 1);
+pQ.enqueue("Baary", 3);
 //pQ.dequeue();
 pQ.print();

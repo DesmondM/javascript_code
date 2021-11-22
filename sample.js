@@ -6,3 +6,5 @@ for (var i = 0; i < arr.length; i++) {
     }
   }(i), 6000);
 }
+
+// Done

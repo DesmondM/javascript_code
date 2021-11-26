@@ -9,4 +9,4 @@ const repeatStr = (str, num) =>{
 
 }
 
-console.log(repeatStr("Dad", 4))
+console.log(repeatStr("Dad ", 4))

@@ -21,7 +21,7 @@ const existCons = (str)=>{
 const existCons = (str)=>{
     var flag1 = false;
     for(let i=0; i<str.length-2; i++){
-        if(str[i]==str[i+1]&& str[i]==str[i+2]){
+        if(str[i]==str[i+1]&& str[i]==str[i+2]){      // cosecutive 3 characters
             console.log("There are consecutive " + str[i] +"'s");
             return true
             break
